@@ -44,6 +44,7 @@
   </div>
 
   <script>
+  window.onload = function(){
   const slideIns = document.querySelectorAll('.slide-in');
   const triggerOffset = 400;
   window.addEventListener('scroll', () => {
@@ -56,7 +57,8 @@
         el.classList.add('active');
       }
     });
- });
+   });
+  }
   </script>
 
   <style>
